@@ -16,6 +16,7 @@ midonet_repo      : "midonet-{{ midonet_version.split(\".\")[0] }}"
 midonet_dist      : stable
 midonet_os_dist   : stable
 midonet_os_repo   : "openstack-{{openstack_version}}"
+midonet_metadata  : True
 
 # Set if deploying on OpenStack
 os_image_id       : 1ebcca58-e8c8-4dff-afa3-72aab08a87ca
